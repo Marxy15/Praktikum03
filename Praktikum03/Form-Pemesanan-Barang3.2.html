@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <fieldset style="width: 75%;">
+       <!-- buat link -->
+      <nav align="center">
+        <a href="">Home</a>|
+        <a href="">Generate Link</a>|
+        <a href="">Transaction History</a>|
+        <a href="">Policy</a>|
+        <a href="">Logout</a>
+      </nav>
+    </fieldset>
+    <fieldset style="width: 75%; background-color: lightgrey;">
+        <div style="text-align:justify;width">
+            <img src="gambar/download.jpg" style="float:left">
+        </div>
+    <table>
+        <tr>
+            <td>
+                <ul type="none">
+                    <li>
+                      <label for="Title-Here" >Title Here :</label>
+                      <input type="text" id="Title-Here" value="MacBook Air £500">
+                    </li><br>
+
+                    <li>
+                      <label for="description">Description :</label>
+                      <textarea id="description">Year : 2010</textarea>
+                    </li><br>
+
+                    <li>
+                      <label for="account">Account Number :</label>
+                      <input type="text" id="account" value="132-343-79-0">
+                    </li><br>
+
+                    <li>
+                      <label for="bank">Bank :</label>
+                        <select name="two">
+                          <option>HSBC</option>
+                          <option>BCA</option>
+                          <option>BTN</option>
+                        </select>
+                    </li><br>
+
+                    <li>
+                        <label for="account-holder">Account Holder</label>
+                        <input type="name" id="account-holder" value="Name Here">
+                    </li><br>
+
+                    <li>
+                        <label for="count">Transaction :</label>
+                        <input type="number" id="count">
+                    </li><br>
+
+                    <!-- input checkbox -->
+                    <li>
+                        <input type="checkbox" id="Mobile-Phone">
+                        <label for="Mobile-Phone">Send to Mobile Phone</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="Email">
+                        <label for="Email">Send to Email</label>
+                    </li><br><br>
+
+                    <!-- form Mobile Phone dan email -->
+                    <li>
+                      <label for="Mobile-Phone">Send to Mobile Phone :</label>
+                      <input type="text" id="Mobile-Phone" value="08584921965">
+                    </li><br>
+
+                    <li>
+                      <label for="email">Send to Email :</label>
+                      <input type="email" id="email" value="ammarmuhammad164@gmail.com">
+                    </li><br><br>
+
+                    <!-- tombol submit -->
+                    <a href="http://localhost/TugasWeb/Praktikum03/Form-Hasil-Pemesanan3.2.html">
+                        <input value="Generate Nabr Link" type="submit" class="btn" style="color: white; background-color: green;">
+                </ul>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</body>
+</html>
